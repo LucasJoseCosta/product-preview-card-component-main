@@ -1,0 +1,111 @@
+/* Layout ---------------- */
+body,html {
+    height: 100%;
+}
+
+body{
+    background: hsl(30, 38%, 92%);
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+section{
+    margin-top: 150px;
+    margin-bottom: 190px;
+}
+
+/* Caixa ----------*/
+.caixa{
+    background: white;
+    margin: auto;
+    padding: 0;
+    border-radius: 20px;
+}
+
+/* Imagem ------------ */
+div.imagem {
+    padding: 0;
+    border-radius: 10px;
+}
+
+img.img-fluid{
+    border-radius: 20px 0 0 20px;
+}
+
+/* Tipografia ---------- */
+
+div.text{
+    padding-left: 20px;
+}
+
+h1{
+    padding-top: 20px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+h3{
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+p{ 
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: hsl(228, 12%, 48%);
+}
+
+span{
+    display: inline-block;
+}
+
+div span.verde{
+    margin-right: 15px;
+    font-family: 'Fraunces', serif;
+    font-size: 3.5em;
+    color:hsl(158, 36%, 37%);
+}
+
+div span del{
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.preco{
+    position: relative;
+}
+
+.preco .riscado{
+    position: relative;
+    bottom: 15px;
+}
+
+/* Botao ----------- */
+.btn-custom{
+    margin-top: 20px;
+    padding: 10px;
+    background: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+}
+
+.btn-custom:hover{
+    background: hsl(156, 42%, 18%);
+    color: hsl(0, 0%, 100%);
+}
+
+a img{
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
